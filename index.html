@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My CI/CD Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Dr. Ahmad Sarosh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6dd5fa, #2980b9);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px 60px;
+            border-radius: 18px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+        h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+            text-shadow: 0 3px 8px rgba(0,0,0,0.25);
+        }
+        p {
+            font-size: 24px;
+            opacity: 0.9;
+            font-weight: 300;
+            text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello from CI/CD Pipeline!</h1>
-    <p>Автоматический деплой через GitHub Actions.</p>
+
+    <div class="card">
+        <h1>Hello Dr. Ahmad Sarosh</h1>
+        <p>From Zhyldyz Ermatova</p>
+    </div>
+
 </body>
 </html>
